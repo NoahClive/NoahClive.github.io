@@ -1,0 +1,37 @@
+
+header {
+    position: relative;
+    top: 150px;
+    left: 10%;
+    
+
+    
+}
+
+h1{
+    color: black;
+    width: 80vi;
+    font-size: 5vi;
+    font-family: Arial;    
+}
+
+h2{
+    color: black;
+    font-size: 3vi;
+    font-family: Arial;
+    width: 80vi;
+    
+}
+.navigationbuttons{
+    position: absolute;
+    width: 250px;
+    margin-left: 10px;
+    font-size: 25pt;
+    top: 15px;
+    right: 0px;
+}
+
+.container{
+    position: relative;
+    top: 250px;
+}
