@@ -24,11 +24,10 @@ h2{
 }
 .navigationbuttons{
     position: absolute;
+    right: 0;
+    top: 20px;
     width: 250px;
-    margin-left: 10px;
     font-size: 25pt;
-    top: 15px;
-    right: 0px;
 }
 
 .container{
