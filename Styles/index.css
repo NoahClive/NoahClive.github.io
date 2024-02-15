@@ -1,0 +1,65 @@
+
+header {
+    position: relative;
+    top: 150px;
+    left: 10%;
+}
+
+h1{
+    color: white;
+    width: 80vi;
+    font-size: 10vi;
+    font-family: Arial;    
+}
+
+h2{
+    color: white;
+    font-size: 4vi;
+    font-family: Arial;
+    width: 80vi;
+    
+}
+.navigationbuttons{
+    position: absolute;
+    right: 80px;
+    top: 20px;
+    width: 170px;
+    font-size: 25pt;
+}
+
+#BackgroundVideo{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+
+.container{
+    position: relative;
+    top: 250px;
+}
+
+img{
+    width: 500px;
+    height: auto;
+}
+
+@media only screen and (max-width:500px){
+    img{width:90vi}
+    h1{
+        font-size: 15vi;
+    }
+    h2{
+        font-size: 6vi;
+    }
+    .container{
+    top: 175px;
+    }
+}

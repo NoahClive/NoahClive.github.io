@@ -2,16 +2,13 @@
 header {
     position: relative;
     top: 150px;
-    left: 10%;
-    
-
-    
+    left: 10%;  
 }
 
 h1{
     color: black;
     width: 80vi;
-    font-size: 5vi;
+    font-size: 8vi;
     font-family: Arial;    
 }
 
@@ -33,4 +30,22 @@ h2{
 .container{
     position: relative;
     top: 250px;
+}
+
+img{
+    width: 500px;
+    height: auto;
+}
+
+@media only screen and (max-width:500px){
+    img{width:90vi}
+    h1{
+        font-size: 15vi;
+    }
+    h2{
+        font-size: 6vi;
+    }
+    .container{
+    top: 175px;
+    }
 }
